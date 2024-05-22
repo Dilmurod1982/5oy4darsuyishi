@@ -56,5 +56,29 @@ document.addEventListener("keydown", (e) => {
   } else if (e.key == "l") {
     tom4.currentTime = 0;
     tom4.play();
+  } else if (e.key == "ц") {
+    crash.currentTime = 0;
+    crash.play();
+  } else if (e.key == "ф") {
+    kickBass.currentTime = 0;
+    kickBass.play();
+  } else if (e.key == "ы") {
+    snare.currentTime = 0;
+    snare.play();
+  } else if (e.key == "қ") {
+    snare.currentTime = 0;
+    snare.play();
+  } else if (e.key == "в") {
+    tom1.currentTime = 0;
+    tom1.play();
+  } else if (e.key == "о") {
+    tom2.currentTime = 0;
+    tom2.play();
+  } else if (e.key == "л") {
+    tom3.currentTime = 0;
+    tom3.play();
+  } else if (e.key == "д") {
+    tom4.currentTime = 0;
+    tom4.play();
   }
 });
